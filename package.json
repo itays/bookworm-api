@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node -- src/index.js"
+    "start": "nodemon --inspect-brk --exec babel-node -- src/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -19,6 +19,7 @@
     "jsonwebtoken": "^8.1.0",
     "lodash": "^4.17.4",
     "mongoose": "^5.0.0-rc2",
-    "mongoose-unique-validator": "^2.0.0"
+    "mongoose-unique-validator": "^2.0.0",
+    "nodemailer": "^4.4.2"
   }
 }
